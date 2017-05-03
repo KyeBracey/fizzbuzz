@@ -4,6 +4,8 @@ class Integer
       return 'buzz'
     elsif self%3 == 0
       return 'fizz'
+    else
+      return self
     end
   end
 end
