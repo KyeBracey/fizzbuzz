@@ -13,4 +13,10 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" for the number 15' do
     expect(15.fizzbuzz).to eq 'fizzbuzz'
   end
+  it 'returns "fizzbuzz" for the number -30' do
+    expect(-30.fizzbuzz).to eq 'fizzbuzz'
+  end
+  it 'returns "fizzbuzz" for the number 0' do
+    expect(0.fizzbuzz).to eq 'fizzbuzz'
+  end
 end
